@@ -1,0 +1,61 @@
+{
+  "Engine": {
+    "Enabled": true,
+    // A number > 0 causes a fixed number of loops.
+    // -1 = loops forever.
+    // 0 = start and then stop.
+    "LoopFor": -1,
+    "ShowConfig": false,
+    "ShowGLInfo": false,
+    "ShowMonitorInfo": false,
+    "ShowTimingInfo": false,
+    "ShowJoystickInfo": false,
+    "GLMajorVersion": 3,
+    "GLMinorVersion": 3,
+    "FPSRefreshRate": 1.0
+  },
+  "Window": {
+    "BitsPerPixel": 32,
+    "LockToVSync": true,
+    "ClearColor": {
+      "R": 1.0,
+      "G": 0.5,
+      "B": 0.0,
+      "A": 1.0
+    },
+    // VirtualRes are the dimensions you want to code for.
+    "VirtualRes": {
+      "Height": 600,
+      "Width": 1000
+    },
+    "DeviceRes": {
+      "Height": 900,
+      "Width": 1500
+    },
+    "FullScreen": false,
+    /* 
+    Orientation can be: "Landscape" or "Portrait"
+    */
+    "Orientation": "Landscape",
+    "Position": {
+      "X": 100,
+      "Y": 100
+    },
+    "Title": "Ranger Alpha"
+  },
+  "Camera": {
+    "Centered": true,
+    "View": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": -1.0
+    }
+  },
+  "Font": {
+    "Path": "Ranger/Assets",
+    "Name": "/neuropol x rg.ttf",
+    "Size": 128,
+    "Scale": 0.10,
+    "CharsFromSet": 128
+  }
+}
